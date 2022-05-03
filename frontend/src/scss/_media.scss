@@ -1,0 +1,61 @@
+@media(max-width:600px) {
+// Header
+    .main-nav{
+            // justify-content: center;
+
+        h2 {
+            border-bottom: 1px solid $light-color;
+        }
+        .grade-nav{
+            border-bottom: 1px solid $light-color;
+        }
+
+    }
+
+// Body
+
+.animalMemorize{
+    .image-container{
+        // height: 350px;
+        grid-template-columns: 1fr;
+        width: 100vw;
+        margin: auto;
+        padding-bottom: 0;
+    
+        img {
+            height: 40vh;
+            width: 100%;
+        }
+    
+        .card {
+            border: none;
+            width: 100%;
+            padding-bottom: 0;
+            button{
+                font-size:20px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+.underpart-container {
+    justify-content: flex-start;
+}
+
+.under-part{
+    height: 80px;
+.arrow{
+    height: 60px;
+    button{
+        font-size: 50px;
+    }
+
+}
+
+}
+
+}
+
+
+

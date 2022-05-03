@@ -1,0 +1,75 @@
+// Navbar
+.main-nav{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $main-color;
+    height: 0px;
+    color: #fff;
+    height: 50px;
+    
+     .grade-nav {
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            display: block;
+            height: 38px;
+            position: relative;
+            margin: 5px 10px;
+        }
+    } 
+
+     .lang-nav {
+        display: flex;
+        justify-content: space-around;
+
+        li {
+            display: block;
+            height: 38px;
+            position: relative;
+            margin: 5px 10px;
+
+        }
+
+     img {
+            width: 35px;
+            height: 25px;
+            object-fit: cover;
+            margin: 0 5px;
+     }
+      
+
+
+    }
+    button{
+        color: #fff;
+        background-color: #C90076;
+        border: none;
+        padding: 8px 8px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+  }
+
+ .languages{
+          
+          display: flex;
+          justify-content: space-around;
+          li img{
+                    width: 40px;
+                    height: 30px;
+                    object-fit: cover;
+                    margin: 10px 8px;
+                    cursor: pointer;
+          }
+          li:last-child img{
+              border: 1px solid;
+  }
+          li{
+              &.under-line{
+                  border-bottom: solid 2px;
+              }
+          }
+}
